@@ -120,3 +120,24 @@ body {
 .gameContainer.start .optBox {
     pointer-events: none;
 }
+
+/* Responsive styles */
+
+@media (max-width: 600px) {
+    .gameContainer {
+        height: 500px;
+        width: 340px;
+        /* background: transparent; */
+    }
+
+    .bigImages img {
+        /* display: flex; */
+        height: 200px;
+        width: 200px;
+    }
+
+    #hands img {
+        height: 80px;
+        width: 80px;
+    }
+}
